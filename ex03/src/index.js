@@ -2,7 +2,7 @@
 // Only change code below this line
 function* myGenerator(a, b, c) {
     yield* [1, 2, 3, 4 , 5];
-    yield* 'Arena';
+    yield* "Arena";
     yield* arguments;
 }
 

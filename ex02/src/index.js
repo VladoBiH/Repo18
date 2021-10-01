@@ -23,12 +23,12 @@ let iterator = myGenerator();
 const fifteenArray =[];
 
 for (let i=0; i < 16 ; i++){
-    if(i<15){
+    if(i < 15){
     fifteenArray.push(iterator.next().value + '#');
     } else {
     fifteenArray.push(iterator.next().value + '!');
     }
-}
+};
 
 
 console.log(...fifteenArray)

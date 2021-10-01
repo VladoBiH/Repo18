@@ -24,7 +24,6 @@ for(uni2 of two) {
         }
     }
 }
-
 console.log(unionSet)
 console.log(intersectionSet)
 console.log(differenceSet)
